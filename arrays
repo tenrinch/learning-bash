@@ -1,0 +1,7 @@
+-> Arrays are multi-valued variables to which individaul variables can be referred
+    -> Set using index values: arr[0]=hello; arr[1]=world
+    -> Refer to using index values and curly braces:echo ${arr[0]} ${arr[1]}
+        -> ${arr[*]} refers to all values in the arrray
+        -> ${!arr[*]} shows all index values currently in use
+        -> ${#arr[*]} shows how many items there are in the array
+    
